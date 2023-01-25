@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #fafafa;
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 390px;
+
+    .loginContent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        margin-top: 46px;
+
+        .inputsContent {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            .input {
+                width: 270px;
+                height: 38px;
+                border-radius: 3px;
+                padding-left: 8px;
+            }
+        }
+
+        .btn {
+            width: 270px;
+            height: 32px;
+            border-radius: 8px;
+            background-color: #0095F6;
+            color: #ffff;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .othersLogin {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+            width: 100%;
+            p {
+                height: 1px;
+                width: 107.25px;
+                background-color: #DBDBDB;
+            }
+
+            span {
+                color: #8E8E8E;
+                font-size: 13px;
+                font-weight: 600;
+            }
+        }
+
+        .facebookLogin {
+            display: flex;
+            align-items: center;
+            gap: 13px;
+            
+            a {
+                color: #385185;
+                font-size: 14px;
+                font-weight: 600;
+            }
+        }
+
+        .resetPassword {
+            color: #00376B;
+            font-size: 12px;
+            font-weight: 400;
+        }
+
+        .createCount {
+            font-size: 14px;
+            font-weight: 400;
+
+            a {
+                color: #0095F6;
+            }
+        }
+
+        .stores {
+            text-align: center;
+            
+            .storeTitle {
+                color: #262626;
+                font-size: 14px;
+                font-weight: 400;
+                margin-bottom: 16px;
+            }
+        }
+    }
+}

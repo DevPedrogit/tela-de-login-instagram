@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: #fafafa;
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 390px;
+}
+.container .loginContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  margin-top: 46px;
+}
+.container .loginContent .inputsContent {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.container .loginContent .inputsContent .input {
+  width: 270px;
+  height: 38px;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+.container .loginContent .btn {
+  width: 270px;
+  height: 32px;
+  border-radius: 8px;
+  background-color: #0095F6;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+.container .loginContent .othersLogin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  width: 100%;
+}
+.container .loginContent .othersLogin p {
+  height: 1px;
+  width: 107.25px;
+  background-color: #DBDBDB;
+}
+.container .loginContent .othersLogin span {
+  color: #8E8E8E;
+  font-size: 13px;
+  font-weight: 600;
+}
+.container .loginContent .facebookLogin {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.container .loginContent .facebookLogin a {
+  color: #385185;
+  font-size: 14px;
+  font-weight: 600;
+}
+.container .loginContent .resetPassword {
+  color: #00376B;
+  font-size: 12px;
+  font-weight: 400;
+}
+.container .loginContent .createCount {
+  font-size: 14px;
+  font-weight: 400;
+}
+.container .loginContent .createCount a {
+  color: #0095F6;
+}
+.container .loginContent .stores {
+  text-align: center;
+}
+.container .loginContent .stores .storeTitle {
+  color: #262626;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+/*# sourceMappingURL=style.css.map */
